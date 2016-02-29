@@ -10,6 +10,16 @@ How to run the Project
 3) Use "java EulerUtil FileName" to read input from a file or "java EulerUtil" to input the graph from the console
 4) The program prints the Euler Tour/Path if one exists
 
+Input format:
+
+numberOfNodes numberOfEdges Edge1.Vertex1 Edge1.Vertex2 Edge1.weight ... .... ..... EdgeN.VertexU EdgeN.VertexV EdgeN.weight
+
+Output format: 
+
+list of edges in the Euler Tour in correct order. 
+
+#All edges are undirected 
+
 Sample input
 
 6 10
